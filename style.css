@@ -1,3 +1,115 @@
+<<<<<<< HEAD
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.1);
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+.navbar-toggler-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.btn{
+  display: inline-block;
+  border: 1px solid #b80c1c;
+  color: #fff !important;
+  padding: 12px 26px;
+  font-size: 15px;
+  cursor: pointer;
+  background: #b80c1c;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  border: 1px solid #b80c1c;
+  color: #000 !important;
+  background-color: transparent;
+}
+
+.fas{
+  color: #000;
+}
+
+.card-slider {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px; 
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.txt{
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: #b70c1c;
+  margin-left: auto;
+}
+
+.fa-arrow-right-long{
+  font-size: 14px;
+}
+
+.menu-items{
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+.menu-link{
+  margin-right: 8px;
+  font-weight: 700; 
+  color: rgb(88, 88, 88);
+  margin-bottom: 30px;
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-contents{
+  justify-content: space-between;
+}
+
+.menu-link:hover{
+  color: #b70c1c;
+  border-bottom: 2px solid #b70c1c;
+}
+
+@media (min-width:1440px){
+  
+=======
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
   font-family: "Open Sans", sans-serif;
@@ -71,4 +183,5 @@ nav .icons{
   border: 1px solid #b80c1c;
   color: #000 !important;
   background-color: transparent;
+>>>>>>> 28b3400f5d063a2b320cf4d7805ac9a49248687c
 }
