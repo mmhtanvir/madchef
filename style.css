@@ -138,19 +138,17 @@ nav{
   padding-right: 10px;
 }
 
-#contact-us .contact-mail a{
+#contact-us .contact-mail{
   font-weight: 600;
   font-size: 20px;
   color: #b70c1c;
-    text-decoration: none;
-    color: #b70c1c;
 }
 
 .contact-mail .mail-text::before {
   content: "";
   background: #b70c1c;
   height: 2px;
-  width: 32%;
+  width: 20%;
   position: absolute;
   left: 0;
   top: 50%;
@@ -160,11 +158,25 @@ nav{
   content: "";
   background: #b70c1c;
   height: 2px;
-  width: 32%;
+  width: 20%;
   position: absolute;
   right: 0;
   top: 50%;
 }
 
+.mail-text{
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  color: #b70c1c;
+}
+
+.footer{
+  background: #b70c1c;
+}
+
+.in{
+  font-size: 20px;
+}
 @media (min-width:1440px){}
 
