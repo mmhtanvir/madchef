@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
   font-family: "Open Sans", sans-serif;
@@ -84,7 +85,6 @@ nav{
   overflow-x: auto;
   white-space: nowrap;
   margin-bottom: 30px;
-  justify-content: space-between;
   display: flex;
 }
 .menu-link{
@@ -94,10 +94,6 @@ nav{
   margin-bottom: 30px;
   list-style-type: none;
   display: flex;
-}
-
-.menu-contents{
-  justify-content: space-between;
 }
 
 .menu-link:hover{
@@ -178,5 +174,16 @@ nav{
 .in{
   font-size: 20px;
 }
-@media (min-width:1440px){}
 
+@media (min-width:768px){
+  .menu-contents{
+    display: flex;
+  }
+
+  .menu-items{
+    flex-direction: column;
+    width: 100px;
+  }
+}
+
+@media (min-width:768px){}
